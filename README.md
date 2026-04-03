@@ -60,7 +60,7 @@ This is a Finance Dashboard web application built using React and Tailwind CSS. 
 ##  How to Run the Project
 
 1. Clone the repository:
-   git clone https://github.com/jacobhimanshu/Finance-Dashboard-UI.git
+https://github.com/jacobhimanshu/Finance-Dashboard.git
 
 2. Navigate to project folder:
    cd Finance-Dashboard-UI
@@ -79,7 +79,7 @@ I structured the project into reusable components and used Context API for manag
 
 ---
 
-##  Live Demo (Optional)
+##  Live Demo 
 
 https://finance-dashboard-woad-nine.vercel.app/
 

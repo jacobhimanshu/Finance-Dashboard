@@ -1,16 +1,93 @@
-# React + Vite
+#  Finance Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Overview
 
-Currently, two official plugins are available:
+This is a Finance Dashboard web application built using React and Tailwind CSS. It allows users to track their financial activities, view transactions, and understand spending patterns through visualizations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+##  Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Dashboard overview with:
 
-## Expanding the ESLint configuration
+  * Total Balance
+  * Total Income
+  * Total Expenses
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*  Transactions Section:
+
+  * View all transactions
+  * Search transactions by category
+  * Add new transaction (Admin only)
+
+*  Role-Based UI:
+
+  * Viewer → Can only view data
+  * Admin → Can add transactions
+
+*  Insights:
+
+  * Shows highest transaction
+
+*  Data Visualization:
+
+  * Balance trend over time (Line Chart)
+  * Category-wise spending breakdown (Pie Chart)
+
+*  Data Persistence:
+
+  * Data is stored in localStorage
+
+---
+
+##  Tech Stack
+
+* React (Vite)
+* Tailwind CSS
+* Recharts (for charts)
+* Context API (state management)
+
+---
+
+##  Project Structure
+
+* `components/` → Reusable UI components
+* `pages/` → Dashboard, Transactions, Insights
+* `context/` → Global state management
+
+---
+
+##  How to Run the Project
+
+1. Clone the repository:
+   git clone https://github.com/jacobhimanshu/Finance-Dashboard-UI.git
+
+2. Navigate to project folder:
+   cd Finance-Dashboard-UI
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+
+---
+
+##  Approach
+
+I structured the project into reusable components and used Context API for managing global state such as transactions, user role, and filters. I implemented features like filtering, role-based UI, and dynamic data updates. I also added charts for better visualization of financial data.
+
+---
+
+##  Live Demo (Optional)
+
+https://finance-dashboard-woad-nine.vercel.app/
+
+---
+
+
+---
+
+##  Author
+
+Himanshu Maurya
